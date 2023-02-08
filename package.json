@@ -1,0 +1,23 @@
+{
+  "name": "darkness",
+  "version": "1.0.0",
+  "description": "DarknessCode Slash Bot Altyapisi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JustMoon",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "croxydb": "^0.0.7",
+    "discord-api-types": "^0.37.5",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^14.3.0",
+    "justdata": "^1.4.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "orio.db": "^3.1.2",
+    "os": "^0.1.2"
+  }
+}
