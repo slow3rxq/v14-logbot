@@ -18,7 +18,7 @@ module.exports = {
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return interaction.reply({ embeds: [yetki_embed], ephemeral: true })
 
         
-        const data = wixua.get(`banLog_${interaction.guild.id}`)//olum bu log ayarlı değilse embed atıyo bu başkane başka olm bak bu gösterem sana anladım denicem bekle
+        const data = wixua.get(`banLog_${interaction.guild.id}`)
 
         const zaten_yok_embed = new EmbedBuilder()
             .setColor("Red")
@@ -30,7 +30,7 @@ module.exports = {
             .setColor("Green")
             .setDescription("`✅` |  Ban log sistemi başarıyla sıfırlandı! :bell:")
 
-            wixua.delete(`banLog_${interaction.guild.id}`) //böylemi yapmam gerek sıfırlamıyo bu
+            wixua.delete(`banLog_${interaction.guild.id}`) 
 
         return interaction.reply({ embeds: [embed], ephemeral: true })
     }
