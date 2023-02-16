@@ -10,7 +10,7 @@ module.exports = {
 
     run: async (client, interaction, args) => {
 
-//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/altyapilar
+//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/npm
 
     if(!interaction.member.permissions.has("Administrator")) return interaction.reply("Bu Komutu Kullanmak İçin **Yönetici** Yetkisine Sahip Olmalısın!");
 
