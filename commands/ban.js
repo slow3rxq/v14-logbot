@@ -20,7 +20,7 @@ module.exports = {
         },
     ],
 
-//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/altyapilar
+
 
     run: async (client, interaction) => {
 
