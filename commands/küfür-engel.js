@@ -18,7 +18,6 @@ module.exports = {
 
     run: async (client, interaction) => {
 
-//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/altyapilar
 
         if(wixua.fetch(`kufurEngel_${interaction.guild.id}`)) {
             return interaction.reply({ content: "sistem zaten ayarlı", ephemeral: true })
