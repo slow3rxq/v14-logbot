@@ -9,7 +9,7 @@ module.exports = {
 
     run: async (client, interaction) => {
 
-//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/npm
+
 
         const yetki_embed = new EmbedBuilder()
             .setColor("Red")
@@ -17,7 +17,7 @@ module.exports = {
 
         if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) return interaction.reply({ embeds: [yetki_embed], ephemeral: true })
 
-        const data = wixua.get(`kufurEngel_${interaction.guild.id}`)//bunu 2sini nasıl sıfırlicak
+        const data = wixua.get(`kufurEngel_${interaction.guild.id}`)
 
         const zaten_yok_embed = new EmbedBuilder()
             .setColor("Red")
