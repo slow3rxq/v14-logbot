@@ -9,8 +9,6 @@ module.exports = {
 	run: async (client, interaction, args) => {
 
 
-//BneWixua#1519 Tarafından yapıldı. Daha fazla altyapı için discord.gg/altyapilar
-
     const server = interaction.guild
 
     let log = wixua.get(`log_${interaction.guild.id}`)
